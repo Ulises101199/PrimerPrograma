@@ -20,10 +20,15 @@ public class PrimerPrograma {
     
     public static void main(String[] args) throws IOException {
         int a;
+        int b;
         System.out.println("Indique un valor numerico");
         a = Integer.parseInt(entrada.readLine());
         System.out.println("valor de a = " + a);
-        System.out.println("-----------");
+        System.out.println("-----------"); 
+        System.out.println("Indique un valor numerico");
+        b = Integer.parseInt(entrada.readLine());
+        System.out.println("valor de b = " + b);
+        System.out.println("-----------"); 
     }
     
 }
