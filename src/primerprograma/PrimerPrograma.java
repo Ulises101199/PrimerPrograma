@@ -21,6 +21,7 @@ public class PrimerPrograma {
     public static void main(String[] args) throws IOException {
         int a;
         int b;
+        int c;
         System.out.println("Indique un valor numerico");
         a = Integer.parseInt(entrada.readLine());
         System.out.println("valor de a = " + a);
@@ -29,6 +30,11 @@ public class PrimerPrograma {
         b = Integer.parseInt(entrada.readLine());
         System.out.println("valor de b = " + b);
         System.out.println("-----------"); 
+        System.out.println("Indique un valor numerico");
+        c = Integer.parseInt(entrada.readLine());
+        System.out.println("valor de c = " + c);
+        System.out.println("-----------"); 
+        
     }
     
 }
