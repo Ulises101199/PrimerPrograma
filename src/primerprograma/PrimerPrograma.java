@@ -22,6 +22,7 @@ public class PrimerPrograma {
         int a;
         int b;
         int c;
+        int d;
         System.out.println("Indique un valor numerico");
         a = Integer.parseInt(entrada.readLine());
         System.out.println("valor de a = " + a);
@@ -34,7 +35,10 @@ public class PrimerPrograma {
         c = Integer.parseInt(entrada.readLine());
         System.out.println("valor de c = " + c);
         System.out.println("-----------"); 
-        
+        System.out.println("Indique un valor numerico");
+        d = Integer.parseInt(entrada.readLine());
+        System.out.println("valor de d = " + d);
+        System.out.println("-----------"); 
     }
     
 }
